@@ -40,8 +40,8 @@
         android:id="@+id/Liner"
         android:layout_width="409dp"
         android:layout_height="206dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginBottom="129dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="128dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/True"
         app:layout_constraintStart_toStartOf="parent"></LinearLayout>

@@ -16,4 +16,8 @@
     <string name="cheat">Cheat</string>
     <string name="next">Next</string>
     <string name="question">Question</string>
+    <string name="cheating_is_wrong">Cheating_is_wrong</string>
+    <string name="warning_text">Warning_Text</string>
+    <string name="show_answer_button">Show_answer_Button</string>
+    <string name="answer">answer</string>
 </resources>

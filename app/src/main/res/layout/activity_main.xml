@@ -30,8 +30,8 @@
         android:id="@+id/Cheat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="176dp"
-        android:layout_marginBottom="92dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginBottom="152dp"
         android:text="@string/cheat"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -40,27 +40,37 @@
         android:id="@+id/linear"
         android:layout_width="159dp"
         android:layout_height="81dp"
-        android:layout_marginStart="96dp"
-        android:layout_marginBottom="220dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginBottom="88dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/False_button"
         app:layout_constraintStart_toStartOf="parent">
 
         <TextView
             android:id="@+id/Question"
-            android:layout_width="298dp"
-            android:layout_height="151dp"
-            android:text="@string/question" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Question_Austraila" />
     </LinearLayout>
 
     <Button
         android:id="@+id/Next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="92dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="52dp"
         android:text="@string/next"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Truth_button" />
+
+    <TextView
+        android:id="@+id/Cheat_text"
+        android:layout_width="109dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="117dp"
+        android:layout_marginBottom="58dp"
+        android:text="@string/cheating_is_wrong"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
