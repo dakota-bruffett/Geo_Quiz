@@ -1,7 +1,19 @@
 <resources>
     <string name="app_name">Geo_Quiz</string>
-    <string name="canbarra_is_the_capatal_of_austrilla">Canbarra is the capatal of Austrilla</string>
+    <string name="Question_Austraila">Canbarra is the capatal of Austrilla</string>
     <string name="truth">Truth</string>
     <string name="False">False</string>
-    <string name="false">False</string>
+    <string name="correct_toast">Correct</string>
+    <string name="incorrect_toast">Incorrect</string>
+    <string name="questions_Oceans">The pacific Ocean is longer than the Alantic. Ocean</string>
+    <string name="Question_Midwest">The suez canal connects to the red sea.</string>
+    <string name="Question_America">The amazon River is the longest river.</string>
+    <string name="Question_Africa">The soucrce of nile river is the longest river</string>
+    <string name="Question_Asia">The lake baiken is the worlds oldest lake</string>
+    <string name="trueeee">Trueeee</string>
+    <string name="falsee">Falsee</string>
+    <string name="awnser">Awnser</string>
+    <string name="cheat">Cheat</string>
+    <string name="next">Next</string>
+    <string name="question">Question</string>
 </resources>

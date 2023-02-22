@@ -6,23 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/Question"
-        android:layout_width="240dp"
-        android:layout_height="101dp"
-        android:layout_marginStart="83dp"
-        android:layout_marginBottom="109dp"
-        android:text="@string/canbarra_is_the_capatal_of_austrilla"
-        app:layout_constraintBottom_toTopOf="@+id/False_button"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <Button
         android:id="@+id/False_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="92dp"
         android:layout_marginBottom="352dp"
-        android:text="False"
+        android:text="@string/False"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/Truth_button" />
 
@@ -30,10 +20,47 @@
         android:id="@+id/Truth_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="55dp"
-        android:layout_marginBottom="342dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="340dp"
         android:text="@string/truth"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Cheat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginBottom="92dp"
+        android:text="@string/cheat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="159dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginBottom="220dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/False_button"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/Question"
+            android:layout_width="298dp"
+            android:layout_height="151dp"
+            android:text="@string/question" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="92dp"
+        android:text="@string/next"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Truth_button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
