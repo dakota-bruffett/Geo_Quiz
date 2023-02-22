@@ -56,7 +56,22 @@ class MainActivity : AppCompatActivity() {
         Toast.makeText(this, messageResId, Toast.LENGTH_SHORT)
             .show()
     }
-
+    override fun onStart(){
+        super.onStart()
+        Log.d(TAG, "onStart()Called)")
+    }
+    override fun onResume(){
+        super.onResume()
+        Log.d(TAG, "onStart()Called")
+    }
+    override fun onStop(){
+        super.onStop()
+        Log.d(TAG, "onStop()Called")
+    }
+    override  fun onDestroy(){
+        super.onDestroy()
+        Log.d(TAG, "onDestroy()Called")
+    }
 
     private fun updateQuestion() {
         val questionTextResId = questionBank[currentIndex].textResId
